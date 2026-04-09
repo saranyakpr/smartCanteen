@@ -1,0 +1,13 @@
+[
+  { "id": "mi_idli_sambar", "name": "Idli & Sambar", "category": "Breakfast", "isVeg": true },
+  { "id": "mi_pongal", "name": "Ven Pongal", "category": "Breakfast", "isVeg": true },
+  { "id": "mi_upma", "name": "Upma", "category": "Breakfast", "isVeg": true },
+  { "id": "mi_dosa", "name": "Dosa", "category": "Breakfast", "isVeg": true },
+  { "id": "mi_lemon_rice", "name": "Lemon Rice", "category": "Main", "isVeg": true },
+  { "id": "mi_sambar_rice", "name": "Sambar Rice", "category": "Main", "isVeg": true },
+  { "id": "mi_curd_rice", "name": "Curd Rice", "category": "Main", "isVeg": true },
+  { "id": "mi_chapati_kurma", "name": "Chapati & Kurma", "category": "Main", "isVeg": true },
+  { "id": "mi_veg_biryani", "name": "Vegetable Biryani", "category": "Main", "isVeg": true },
+  { "id": "mi_tea_biscuits", "name": "Tea & Biscuits", "category": "Snack", "isVeg": true },
+  { "id": "mi_samosa", "name": "Samosa", "category": "Snack", "isVeg": true }
+]

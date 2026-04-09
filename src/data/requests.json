@@ -1,0 +1,194 @@
+[
+  {
+    "id": "rq_1001",
+    "requestNo": "REQ-1001",
+    "date": "2026-03-23",
+    "requestedByRole": "Chef",
+    "requestedByLabel": "Chef (Day Shift)",
+    "itemId": "si_tomato",
+    "unit": "kg",
+    "requestedQty": 40,
+    "issuedQty": 20,
+    "status": "Partially Issued",
+    "urgency": "High",
+    "remarks": "Lunch production — tomato-based gravy.",
+    "timeline": [
+      {
+        "id": "rq_1001_t1",
+        "at": "2026-03-23T10:05:00.000Z",
+        "status": "Requested",
+        "actorLabel": "Chef (Day Shift)"
+      },
+      {
+        "id": "rq_1001_t2",
+        "at": "2026-03-23T11:15:00.000Z",
+        "status": "Approved",
+        "actorLabel": "Store Manager",
+        "note": "Approved. FEFO will apply for batch allocation."
+      },
+      {
+        "id": "rq_1001_t3",
+        "at": "2026-03-24T09:12:00.000Z",
+        "status": "Partially Issued",
+        "actorLabel": "Store Manager",
+        "note": "Issued 20 kg; balance pending."
+      }
+    ]
+  },
+  {
+    "id": "rq_1002",
+    "requestNo": "REQ-1002",
+    "date": "2026-03-20",
+    "requestedByRole": "Chef",
+    "requestedByLabel": "Chef (Day Shift)",
+    "itemId": "si_wheat_flour",
+    "unit": "kg",
+    "requestedQty": 25,
+    "issuedQty": 25,
+    "status": "Closed",
+    "urgency": "Normal",
+    "remarks": "Chapati & Kurma production.",
+    "timeline": [
+      {
+        "id": "rq_1002_t1",
+        "at": "2026-03-20T08:20:00.000Z",
+        "status": "Requested",
+        "actorLabel": "Chef (Day Shift)"
+      },
+      {
+        "id": "rq_1002_t2",
+        "at": "2026-03-20T08:45:00.000Z",
+        "status": "Approved",
+        "actorLabel": "Store Manager"
+      },
+      {
+        "id": "rq_1002_t3",
+        "at": "2026-03-20T09:02:00.000Z",
+        "status": "Issued",
+        "actorLabel": "Store Manager",
+        "note": "Issued full quantity."
+      },
+      {
+        "id": "rq_1002_t4",
+        "at": "2026-03-21T09:00:00.000Z",
+        "status": "Closed",
+        "actorLabel": "Chef (Day Shift)",
+        "note": "Received and reconciled."
+      }
+    ]
+  },
+  {
+    "id": "rq_1003",
+    "requestNo": "REQ-1003",
+    "date": "2026-03-18",
+    "requestedByRole": "Chef",
+    "requestedByLabel": "Chef (Day Shift)",
+    "itemId": "si_milk",
+    "unit": "l",
+    "requestedQty": 80,
+    "issuedQty": 0,
+    "status": "Rejected",
+    "urgency": "Normal",
+    "remarks": "Requested quantity exceeds planned requirement.",
+    "timeline": [
+      {
+        "id": "rq_1003_t1",
+        "at": "2026-03-18T10:10:00.000Z",
+        "status": "Requested",
+        "actorLabel": "Chef (Day Shift)"
+      },
+      {
+        "id": "rq_1003_t2",
+        "at": "2026-03-18T11:05:00.000Z",
+        "status": "Rejected",
+        "actorLabel": "Store Manager",
+        "note": "Rejected. Please re-check planned consumption for the day."
+      }
+    ]
+  },
+  {
+    "id": "rq_1004",
+    "requestNo": "REQ-1004",
+    "date": "2026-03-24",
+    "requestedByRole": "Chef",
+    "requestedByLabel": "Chef (Day Shift)",
+    "itemId": "si_rice",
+    "unit": "kg",
+    "requestedQty": 60,
+    "issuedQty": 0,
+    "status": "Approved",
+    "urgency": "High",
+    "remarks": "Lunch preparation — high demand expected.",
+    "timeline": [
+      {
+        "id": "rq_1004_t1",
+        "at": "2026-03-24T08:10:00.000Z",
+        "status": "Requested",
+        "actorLabel": "Chef (Day Shift)"
+      },
+      {
+        "id": "rq_1004_t2",
+        "at": "2026-03-24T08:45:00.000Z",
+        "status": "Approved",
+        "actorLabel": "Store Manager",
+        "note": "Approved; issue will use FEFO batches."
+      }
+    ]
+  },
+  {
+    "id": "rq_1005",
+    "requestNo": "REQ-1005",
+    "date": "2026-03-17",
+    "requestedByRole": "Chef",
+    "requestedByLabel": "Chef (Day Shift)",
+    "itemId": "si_tea_powder",
+    "unit": "kg",
+    "requestedQty": 3,
+    "issuedQty": 3,
+    "status": "Issued",
+    "urgency": "Normal",
+    "remarks": "Tea service for Snacks.",
+    "timeline": [
+      {
+        "id": "rq_1005_t1",
+        "at": "2026-03-17T13:05:00.000Z",
+        "status": "Requested",
+        "actorLabel": "Chef (Day Shift)"
+      },
+      {
+        "id": "rq_1005_t2",
+        "at": "2026-03-17T13:25:00.000Z",
+        "status": "Approved",
+        "actorLabel": "Store Manager"
+      },
+      {
+        "id": "rq_1005_t3",
+        "at": "2026-03-17T15:02:00.000Z",
+        "status": "Issued",
+        "actorLabel": "Store Manager"
+      }
+    ]
+  },
+  {
+    "id": "rq_1006",
+    "requestNo": "REQ-1006",
+    "date": "2026-03-24",
+    "requestedByRole": "Chef",
+    "requestedByLabel": "Chef (Day Shift)",
+    "itemId": "si_onion",
+    "unit": "kg",
+    "requestedQty": 20,
+    "issuedQty": 0,
+    "status": "Requested",
+    "urgency": "Normal",
+    "remarks": "Gravy preparation.",
+    "timeline": [
+      {
+        "id": "rq_1006_t1",
+        "at": "2026-03-24T10:20:00.000Z",
+        "status": "Requested",
+        "actorLabel": "Chef (Day Shift)"
+      }
+    ]
+  }
+]

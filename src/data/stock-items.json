@@ -1,0 +1,43 @@
+[
+  { "id": "si_rice", "name": "Rice", "category": "Grains", "unit": "kg", "reorderLevel": 150, "reorderQty": 500 },
+  {
+    "id": "si_wheat_flour",
+    "name": "Wheat Flour",
+    "category": "Grains",
+    "unit": "kg",
+    "reorderLevel": 60,
+    "reorderQty": 200
+  },
+  { "id": "si_dal", "name": "Dal", "category": "Groceries", "unit": "kg", "reorderLevel": 35, "reorderQty": 120 },
+  { "id": "si_oil", "name": "Cooking Oil", "category": "Groceries", "unit": "l", "reorderLevel": 45, "reorderQty": 150 },
+  { "id": "si_milk", "name": "Milk", "category": "Dairy", "unit": "l", "reorderLevel": 80, "reorderQty": 200 },
+  { "id": "si_curd", "name": "Curd", "category": "Dairy", "unit": "kg", "reorderLevel": 70, "reorderQty": 180 },
+  {
+    "id": "si_tomato",
+    "name": "Tomato",
+    "category": "Vegetables",
+    "unit": "kg",
+    "reorderLevel": 30,
+    "reorderQty": 100
+  },
+  { "id": "si_onion", "name": "Onion", "category": "Vegetables", "unit": "kg", "reorderLevel": 25, "reorderQty": 90 },
+  {
+    "id": "si_potato",
+    "name": "Potato",
+    "category": "Vegetables",
+    "unit": "kg",
+    "reorderLevel": 40,
+    "reorderQty": 120
+  },
+  { "id": "si_sugar", "name": "Sugar", "category": "Groceries", "unit": "kg", "reorderLevel": 25, "reorderQty": 80 },
+  {
+    "id": "si_tea_powder",
+    "name": "Tea Powder",
+    "category": "Groceries",
+    "unit": "kg",
+    "reorderLevel": 6,
+    "reorderQty": 20
+  },
+  { "id": "si_salt", "name": "Salt", "category": "Groceries", "unit": "kg", "reorderLevel": 12, "reorderQty": 30 },
+  { "id": "si_lpg_cylinder", "name": "LPG Cylinder", "category": "Fuel", "unit": "pcs", "reorderLevel": 6, "reorderQty": 12 }
+]

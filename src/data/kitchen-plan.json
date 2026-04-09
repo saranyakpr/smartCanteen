@@ -1,0 +1,205 @@
+[
+  {
+    "id": "kp_20260325_breakfast",
+    "date": "2026-03-25",
+    "session": "Breakfast",
+    "menuItemId": "mi_dosa",
+    "plannedQty": 220,
+    "notes": "Prepare extra batter for next day."
+  },
+  {
+    "id": "kp_20260325_lunch",
+    "date": "2026-03-25",
+    "session": "Lunch",
+    "menuItemId": "mi_veg_biryani",
+    "plannedQty": 710
+  },
+  {
+    "id": "kp_20260325_dinner1",
+    "date": "2026-03-25",
+    "session": "Dinner 1",
+    "menuItemId": "mi_chapati_kurma",
+    "plannedQty": 240
+  },
+  {
+    "id": "kp_20260325_dinner2",
+    "date": "2026-03-25",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "plannedQty": 360
+  },
+
+  {
+    "id": "kp_20260326_breakfast",
+    "date": "2026-03-26",
+    "session": "Breakfast",
+    "menuItemId": "mi_idli_sambar",
+    "plannedQty": 210
+  },
+  {
+    "id": "kp_20260326_lunch",
+    "date": "2026-03-26",
+    "session": "Lunch",
+    "menuItemId": "mi_sambar_rice",
+    "plannedQty": 690
+  },
+  {
+    "id": "kp_20260326_dinner1",
+    "date": "2026-03-26",
+    "session": "Dinner 1",
+    "menuItemId": "mi_curd_rice",
+    "plannedQty": 235
+  },
+  {
+    "id": "kp_20260326_dinner2",
+    "date": "2026-03-26",
+    "session": "Dinner 2",
+    "menuItemId": "mi_samosa",
+    "plannedQty": 340
+  },
+
+  {
+    "id": "kp_20260327_breakfast",
+    "date": "2026-03-27",
+    "session": "Breakfast",
+    "menuItemId": "mi_upma",
+    "plannedQty": 205
+  },
+  {
+    "id": "kp_20260327_lunch",
+    "date": "2026-03-27",
+    "session": "Lunch",
+    "menuItemId": "mi_lemon_rice",
+    "plannedQty": 700
+  },
+  {
+    "id": "kp_20260327_dinner1",
+    "date": "2026-03-27",
+    "session": "Dinner 1",
+    "menuItemId": "mi_chapati_kurma",
+    "plannedQty": 230
+  },
+  {
+    "id": "kp_20260327_dinner2",
+    "date": "2026-03-27",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "plannedQty": 355
+  },
+
+  {
+    "id": "kp_20260328_breakfast",
+    "date": "2026-03-28",
+    "session": "Breakfast",
+    "menuItemId": "mi_pongal",
+    "plannedQty": 215
+  },
+  {
+    "id": "kp_20260328_lunch",
+    "date": "2026-03-28",
+    "session": "Lunch",
+    "menuItemId": "mi_veg_biryani",
+    "plannedQty": 705
+  },
+  {
+    "id": "kp_20260328_dinner1",
+    "date": "2026-03-28",
+    "session": "Dinner 1",
+    "menuItemId": "mi_curd_rice",
+    "plannedQty": 240
+  },
+  {
+    "id": "kp_20260328_dinner2",
+    "date": "2026-03-28",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "plannedQty": 350
+  },
+
+  {
+    "id": "kp_20260329_breakfast",
+    "date": "2026-03-29",
+    "session": "Breakfast",
+    "menuItemId": "mi_dosa",
+    "plannedQty": 220
+  },
+  {
+    "id": "kp_20260329_lunch",
+    "date": "2026-03-29",
+    "session": "Lunch",
+    "menuItemId": "mi_sambar_rice",
+    "plannedQty": 690
+  },
+  {
+    "id": "kp_20260329_dinner1",
+    "date": "2026-03-29",
+    "session": "Dinner 1",
+    "menuItemId": "mi_chapati_kurma",
+    "plannedQty": 235
+  },
+  {
+    "id": "kp_20260329_dinner2",
+    "date": "2026-03-29",
+    "session": "Dinner 2",
+    "menuItemId": "mi_samosa",
+    "plannedQty": 330
+  },
+
+  {
+    "id": "kp_20260330_breakfast",
+    "date": "2026-03-30",
+    "session": "Breakfast",
+    "menuItemId": "mi_upma",
+    "plannedQty": 210
+  },
+  {
+    "id": "kp_20260330_lunch",
+    "date": "2026-03-30",
+    "session": "Lunch",
+    "menuItemId": "mi_lemon_rice",
+    "plannedQty": 710
+  },
+  {
+    "id": "kp_20260330_dinner1",
+    "date": "2026-03-30",
+    "session": "Dinner 1",
+    "menuItemId": "mi_curd_rice",
+    "plannedQty": 238
+  },
+  {
+    "id": "kp_20260330_dinner2",
+    "date": "2026-03-30",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "plannedQty": 360
+  },
+
+  {
+    "id": "kp_20260331_breakfast",
+    "date": "2026-03-31",
+    "session": "Breakfast",
+    "menuItemId": "mi_idli_sambar",
+    "plannedQty": 215
+  },
+  {
+    "id": "kp_20260331_lunch",
+    "date": "2026-03-31",
+    "session": "Lunch",
+    "menuItemId": "mi_veg_biryani",
+    "plannedQty": 700
+  },
+  {
+    "id": "kp_20260331_dinner1",
+    "date": "2026-03-31",
+    "session": "Dinner 1",
+    "menuItemId": "mi_chapati_kurma",
+    "plannedQty": 240
+  },
+  {
+    "id": "kp_20260331_dinner2",
+    "date": "2026-03-31",
+    "session": "Dinner 2",
+    "menuItemId": "mi_samosa",
+    "plannedQty": 340
+  }
+]

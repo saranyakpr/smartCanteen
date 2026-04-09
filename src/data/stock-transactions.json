@@ -1,0 +1,181 @@
+[
+  {
+    "id": "st_20260215_issue_rice_1",
+    "type": "Issue",
+    "occurredAt": "2026-02-15T11:00:00.000Z",
+    "itemId": "si_rice",
+    "batchId": "sb_rice_20260201_a",
+    "qty": -40,
+    "unit": "kg",
+    "reference": { "kind": "Manual", "id": "manual_20260215" },
+    "notes": "Historical issue (monthly variance demo).",
+    "actorLabel": "Store Manager"
+  },
+  {
+    "id": "st_20260225_issue_sugar_1",
+    "type": "Issue",
+    "occurredAt": "2026-02-25T16:30:00.000Z",
+    "itemId": "si_sugar",
+    "batchId": "sb_sugar_20260220",
+    "qty": -10,
+    "unit": "kg",
+    "reference": { "kind": "Manual", "id": "manual_20260225" },
+    "notes": "Historical issue (monthly variance demo).",
+    "actorLabel": "Store Manager"
+  },
+  {
+    "id": "st_20260226_issue_salt_1",
+    "type": "Issue",
+    "occurredAt": "2026-02-26T09:05:00.000Z",
+    "itemId": "si_salt",
+    "batchId": "sb_salt_20260110",
+    "qty": -2,
+    "unit": "kg",
+    "reference": { "kind": "Manual", "id": "manual_20260226" },
+    "notes": "Historical issue (monthly variance demo).",
+    "actorLabel": "Store Manager"
+  },
+
+  {
+    "id": "st_20260317_issue_tea_1",
+    "type": "Issue",
+    "occurredAt": "2026-03-17T15:00:00.000Z",
+    "itemId": "si_tea_powder",
+    "batchId": "sb_tea_20260305",
+    "qty": -3,
+    "unit": "kg",
+    "reference": { "kind": "Requisition", "id": "rq_1005" },
+    "notes": "Issued against approved request.",
+    "actorLabel": "Store Manager"
+  },
+  {
+    "id": "st_20260317_receipt_potato_1",
+    "type": "Receipt",
+    "occurredAt": "2026-03-17T08:10:00.000Z",
+    "itemId": "si_potato",
+    "batchId": "sb_potato_20260317",
+    "qty": 100,
+    "unit": "kg",
+    "reference": { "kind": "GRN", "id": "grn_20260317_01" },
+    "actorLabel": "Store Manager"
+  },
+
+  {
+    "id": "st_20260320_issue_wf_1",
+    "type": "Issue",
+    "occurredAt": "2026-03-20T09:00:00.000Z",
+    "itemId": "si_wheat_flour",
+    "batchId": "sb_wf_20260310",
+    "qty": -25,
+    "unit": "kg",
+    "reference": { "kind": "Requisition", "id": "rq_1002" },
+    "notes": "Issued for Chapati preparation.",
+    "actorLabel": "Store Manager"
+  },
+
+  {
+    "id": "st_20260322_receipt_tomato_1",
+    "type": "Receipt",
+    "occurredAt": "2026-03-22T07:55:00.000Z",
+    "itemId": "si_tomato",
+    "batchId": "sb_tomato_20260322",
+    "qty": 50,
+    "unit": "kg",
+    "reference": { "kind": "GRN", "id": "grn_20260322_02" },
+    "actorLabel": "Store Manager"
+  },
+
+  {
+    "id": "st_20260321_issue_rice_1",
+    "type": "Issue",
+    "occurredAt": "2026-03-21T09:05:00.000Z",
+    "itemId": "si_rice",
+    "batchId": "sb_rice_20260305_b",
+    "qty": -15,
+    "unit": "kg",
+    "reference": { "kind": "Manual", "id": "kitchen_issue_20260321" },
+    "actorLabel": "Store Manager"
+  },
+
+  {
+    "id": "st_20260323_adjust_tomato_1",
+    "type": "Adjustment",
+    "occurredAt": "2026-03-23T08:00:00.000Z",
+    "itemId": "si_tomato",
+    "batchId": "sb_tomato_20260315",
+    "qty": -5,
+    "unit": "kg",
+    "reference": { "kind": "Manual", "id": "expiry_disposal_20260323" },
+    "notes": "Disposed expired batch quantity.",
+    "actorLabel": "Store Manager"
+  },
+
+  {
+    "id": "st_20260324_receipt_milk_1",
+    "type": "Receipt",
+    "occurredAt": "2026-03-24T07:30:00.000Z",
+    "itemId": "si_milk",
+    "batchId": "sb_milk_20260324",
+    "qty": 120,
+    "unit": "l",
+    "reference": { "kind": "GRN", "id": "grn_20260324_01" },
+    "actorLabel": "Store Manager"
+  },
+  {
+    "id": "st_20260324_issue_milk_1",
+    "type": "Issue",
+    "occurredAt": "2026-03-24T07:45:00.000Z",
+    "itemId": "si_milk",
+    "batchId": "sb_milk_20260320",
+    "qty": -18,
+    "unit": "l",
+    "reference": { "kind": "Manual", "id": "kitchen_issue_20260324_breakfast" },
+    "notes": "Breakfast service (tea/coffee).",
+    "actorLabel": "Store Manager"
+  },
+  {
+    "id": "st_20260324_issue_rice_1",
+    "type": "Issue",
+    "occurredAt": "2026-03-24T09:00:00.000Z",
+    "itemId": "si_rice",
+    "batchId": "sb_rice_20260201_a",
+    "qty": -25,
+    "unit": "kg",
+    "reference": { "kind": "Manual", "id": "kitchen_issue_20260324_lunch" },
+    "actorLabel": "Store Manager"
+  },
+  {
+    "id": "st_20260324_issue_tomato_1",
+    "type": "Issue",
+    "occurredAt": "2026-03-24T09:10:00.000Z",
+    "itemId": "si_tomato",
+    "batchId": "sb_tomato_20260322",
+    "qty": -20,
+    "unit": "kg",
+    "reference": { "kind": "Requisition", "id": "rq_1001" },
+    "notes": "Partial issue against request.",
+    "actorLabel": "Store Manager"
+  },
+  {
+    "id": "st_20260324_issue_oil_1",
+    "type": "Issue",
+    "occurredAt": "2026-03-24T09:15:00.000Z",
+    "itemId": "si_oil",
+    "batchId": "sb_oil_20260308",
+    "qty": -6,
+    "unit": "l",
+    "reference": { "kind": "Manual", "id": "kitchen_issue_20260324_lunch" },
+    "actorLabel": "Store Manager"
+  },
+  {
+    "id": "st_20260324_issue_curd_1",
+    "type": "Issue",
+    "occurredAt": "2026-03-24T11:00:00.000Z",
+    "itemId": "si_curd",
+    "batchId": "sb_curd_20260323",
+    "qty": -12,
+    "unit": "kg",
+    "reference": { "kind": "Manual", "id": "kitchen_issue_20260324_dinner" },
+    "actorLabel": "Store Manager"
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "sb_rice_20260201_a",
+    "itemId": "si_rice",
+    "batchCode": "RICE-2026-02-01-A",
+    "receivedDate": "2026-02-01",
+    "expiryDate": "2026-08-01",
+    "receivedQty": 300,
+    "remainingQty": 70,
+    "supplier": "Approved Vendor"
+  },
+  {
+    "id": "sb_rice_20260305_b",
+    "itemId": "si_rice",
+    "batchCode": "RICE-2026-03-05-B",
+    "receivedDate": "2026-03-05",
+    "expiryDate": "2026-09-05",
+    "receivedQty": 250,
+    "remainingQty": 50,
+    "supplier": "Approved Vendor"
+  },
+
+  {
+    "id": "sb_wf_20260310",
+    "itemId": "si_wheat_flour",
+    "batchCode": "WF-2026-03-10",
+    "receivedDate": "2026-03-10",
+    "expiryDate": "2026-07-10",
+    "receivedQty": 200,
+    "remainingQty": 85,
+    "supplier": "Approved Vendor"
+  },
+  {
+    "id": "sb_dal_20260301",
+    "itemId": "si_dal",
+    "batchCode": "DAL-2026-03-01",
+    "receivedDate": "2026-03-01",
+    "expiryDate": "2026-09-01",
+    "receivedQty": 120,
+    "remainingQty": 55,
+    "supplier": "Approved Vendor"
+  },
+  {
+    "id": "sb_oil_20260308",
+    "itemId": "si_oil",
+    "batchCode": "OIL-2026-03-08",
+    "receivedDate": "2026-03-08",
+    "expiryDate": "2026-12-08",
+    "receivedQty": 150,
+    "remainingQty": 60,
+    "supplier": "Approved Vendor"
+  },
+
+  {
+    "id": "sb_milk_20260320",
+    "itemId": "si_milk",
+    "batchCode": "MILK-2026-03-20",
+    "receivedDate": "2026-03-20",
+    "expiryDate": "2026-03-26",
+    "receivedQty": 120,
+    "remainingQty": 30,
+    "supplier": "Dairy Supplier"
+  },
+  {
+    "id": "sb_milk_20260324",
+    "itemId": "si_milk",
+    "batchCode": "MILK-2026-03-24",
+    "receivedDate": "2026-03-24",
+    "expiryDate": "2026-04-05",
+    "receivedQty": 120,
+    "remainingQty": 95,
+    "supplier": "Dairy Supplier"
+  },
+  {
+    "id": "sb_curd_20260319",
+    "itemId": "si_curd",
+    "batchCode": "CURD-2026-03-19",
+    "receivedDate": "2026-03-19",
+    "expiryDate": "2026-03-27",
+    "receivedQty": 80,
+    "remainingQty": 20,
+    "supplier": "Dairy Supplier"
+  },
+  {
+    "id": "sb_curd_20260323",
+    "itemId": "si_curd",
+    "batchCode": "CURD-2026-03-23",
+    "receivedDate": "2026-03-23",
+    "expiryDate": "2026-04-02",
+    "receivedQty": 90,
+    "remainingQty": 65,
+    "supplier": "Dairy Supplier"
+  },
+
+  {
+    "id": "sb_tomato_20260315",
+    "itemId": "si_tomato",
+    "batchCode": "TOM-2026-03-15",
+    "receivedDate": "2026-03-15",
+    "expiryDate": "2026-03-23",
+    "receivedQty": 30,
+    "remainingQty": 8,
+    "supplier": "Veg Supplier"
+  },
+  {
+    "id": "sb_tomato_20260322",
+    "itemId": "si_tomato",
+    "batchCode": "TOM-2026-03-22",
+    "receivedDate": "2026-03-22",
+    "expiryDate": "2026-03-28",
+    "receivedQty": 50,
+    "remainingQty": 26,
+    "supplier": "Veg Supplier"
+  },
+  {
+    "id": "sb_onion_20260318",
+    "itemId": "si_onion",
+    "batchCode": "ONI-2026-03-18",
+    "receivedDate": "2026-03-18",
+    "expiryDate": "2026-04-03",
+    "receivedQty": 70,
+    "remainingQty": 38,
+    "supplier": "Veg Supplier"
+  },
+  {
+    "id": "sb_potato_20260317",
+    "itemId": "si_potato",
+    "batchCode": "POT-2026-03-17",
+    "receivedDate": "2026-03-17",
+    "expiryDate": "2026-04-05",
+    "receivedQty": 100,
+    "remainingQty": 52,
+    "supplier": "Veg Supplier"
+  },
+
+  {
+    "id": "sb_sugar_20260220",
+    "itemId": "si_sugar",
+    "batchCode": "SUG-2026-02-20",
+    "receivedDate": "2026-02-20",
+    "expiryDate": "2026-12-20",
+    "receivedQty": 80,
+    "remainingQty": 28,
+    "supplier": "Approved Vendor"
+  },
+  {
+    "id": "sb_tea_20260305",
+    "itemId": "si_tea_powder",
+    "batchCode": "TEA-2026-03-05",
+    "receivedDate": "2026-03-05",
+    "expiryDate": "2027-03-05",
+    "receivedQty": 20,
+    "remainingQty": 4.8,
+    "supplier": "Approved Vendor"
+  },
+  {
+    "id": "sb_salt_20260110",
+    "itemId": "si_salt",
+    "batchCode": "SALT-2026-01-10",
+    "receivedDate": "2026-01-10",
+    "expiryDate": "2027-01-10",
+    "receivedQty": 30,
+    "remainingQty": 18,
+    "supplier": "Approved Vendor"
+  },
+  {
+    "id": "sb_lpg_20260301",
+    "itemId": "si_lpg_cylinder",
+    "batchCode": "LPG-2026-03-01",
+    "receivedDate": "2026-03-01",
+    "expiryDate": null,
+    "receivedQty": 12,
+    "remainingQty": 5,
+    "supplier": "Fuel Supplier"
+  }
+]

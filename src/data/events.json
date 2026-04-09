@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ev_20260317_01",
+    "date": "2026-03-17",
+    "name": "Boiler Maintenance Activity",
+    "type": "Other",
+    "notes": "Maintenance activity contributed to electricity spike."
+  },
+  {
+    "id": "ev_20260319_01",
+    "date": "2026-03-19",
+    "name": "Leadership Visit & Audit Walkthrough",
+    "type": "Audit",
+    "notes": "Abnormal headcount across Lunch and Snacks due to visitors."
+  }
+]

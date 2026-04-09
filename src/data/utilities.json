@@ -1,0 +1,353 @@
+[
+  {
+    "id": "ut_20260311_electricity",
+    "date": "2026-03-11",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 610,
+    "createdAt": "2026-03-11T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260311_water",
+    "date": "2026-03-11",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 17.8,
+    "createdAt": "2026-03-11T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260311_lpg",
+    "date": "2026-03-11",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 50,
+    "createdAt": "2026-03-11T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260312_electricity",
+    "date": "2026-03-12",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 625,
+    "createdAt": "2026-03-12T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260312_water",
+    "date": "2026-03-12",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 18.2,
+    "createdAt": "2026-03-12T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260312_lpg",
+    "date": "2026-03-12",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 52,
+    "createdAt": "2026-03-12T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260313_electricity",
+    "date": "2026-03-13",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 640,
+    "createdAt": "2026-03-13T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260313_water",
+    "date": "2026-03-13",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 18,
+    "createdAt": "2026-03-13T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260313_lpg",
+    "date": "2026-03-13",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 51,
+    "createdAt": "2026-03-13T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260314_electricity",
+    "date": "2026-03-14",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 590,
+    "createdAt": "2026-03-14T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260314_water",
+    "date": "2026-03-14",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 16.5,
+    "createdAt": "2026-03-14T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260314_lpg",
+    "date": "2026-03-14",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 47,
+    "createdAt": "2026-03-14T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260315_electricity",
+    "date": "2026-03-15",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 580,
+    "createdAt": "2026-03-15T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260315_water",
+    "date": "2026-03-15",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 16.2,
+    "createdAt": "2026-03-15T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260315_lpg",
+    "date": "2026-03-15",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 46,
+    "createdAt": "2026-03-15T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260316_electricity",
+    "date": "2026-03-16",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 635,
+    "createdAt": "2026-03-16T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260316_water",
+    "date": "2026-03-16",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 18.4,
+    "createdAt": "2026-03-16T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260316_lpg",
+    "date": "2026-03-16",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 53,
+    "createdAt": "2026-03-16T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260317_electricity",
+    "date": "2026-03-17",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 980,
+    "notes": "Utility spike day: maintenance activity increased electricity usage.",
+    "createdAt": "2026-03-17T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260317_water",
+    "date": "2026-03-17",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 19,
+    "createdAt": "2026-03-17T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260317_lpg",
+    "date": "2026-03-17",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 55,
+    "createdAt": "2026-03-17T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260318_electricity",
+    "date": "2026-03-18",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 645,
+    "createdAt": "2026-03-18T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260318_water",
+    "date": "2026-03-18",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 18.6,
+    "createdAt": "2026-03-18T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260318_lpg",
+    "date": "2026-03-18",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 52,
+    "createdAt": "2026-03-18T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260319_electricity",
+    "date": "2026-03-19",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 720,
+    "notes": "Special day headcount increased total run-time.",
+    "createdAt": "2026-03-19T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260319_water",
+    "date": "2026-03-19",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 24.5,
+    "createdAt": "2026-03-19T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260319_lpg",
+    "date": "2026-03-19",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 60,
+    "createdAt": "2026-03-19T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260320_electricity",
+    "date": "2026-03-20",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 650,
+    "createdAt": "2026-03-20T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260320_water",
+    "date": "2026-03-20",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 18.9,
+    "createdAt": "2026-03-20T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260320_lpg",
+    "date": "2026-03-20",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 53,
+    "createdAt": "2026-03-20T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260321_electricity",
+    "date": "2026-03-21",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 605,
+    "createdAt": "2026-03-21T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260321_water",
+    "date": "2026-03-21",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 17.2,
+    "createdAt": "2026-03-21T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260321_lpg",
+    "date": "2026-03-21",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 49,
+    "createdAt": "2026-03-21T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260322_electricity",
+    "date": "2026-03-22",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 595,
+    "createdAt": "2026-03-22T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260322_water",
+    "date": "2026-03-22",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 16.8,
+    "createdAt": "2026-03-22T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260322_lpg",
+    "date": "2026-03-22",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 48,
+    "createdAt": "2026-03-22T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260323_electricity",
+    "date": "2026-03-23",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 640,
+    "createdAt": "2026-03-23T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260323_water",
+    "date": "2026-03-23",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 18.3,
+    "createdAt": "2026-03-23T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260323_lpg",
+    "date": "2026-03-23",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 52,
+    "createdAt": "2026-03-23T19:00:00.000Z"
+  },
+
+  {
+    "id": "ut_20260324_electricity",
+    "date": "2026-03-24",
+    "utilityType": "Electricity",
+    "unit": "kWh",
+    "amount": 660,
+    "createdAt": "2026-03-24T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260324_water",
+    "date": "2026-03-24",
+    "utilityType": "Water",
+    "unit": "KL",
+    "amount": 18.7,
+    "createdAt": "2026-03-24T19:00:00.000Z"
+  },
+  {
+    "id": "ut_20260324_lpg",
+    "date": "2026-03-24",
+    "utilityType": "LPG",
+    "unit": "kg",
+    "amount": 54,
+    "createdAt": "2026-03-24T19:00:00.000Z"
+  }
+]

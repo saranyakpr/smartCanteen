@@ -1,0 +1,85 @@
+[
+  { "id": "hc_20260311_breakfast", "date": "2026-03-11", "session": "Breakfast", "expected": 190, "actual": 188 },
+  { "id": "hc_20260311_lunch", "date": "2026-03-11", "session": "Lunch", "expected": 600, "actual": 612 },
+  { "id": "hc_20260311_snacks", "date": "2026-03-11", "session": "Dinner 2", "expected": 340, "actual": 332 },
+  { "id": "hc_20260311_dinner", "date": "2026-03-11", "session": "Dinner 1", "expected": 200, "actual": 198 },
+
+  { "id": "hc_20260312_breakfast", "date": "2026-03-12", "session": "Breakfast", "expected": 195, "actual": 192 },
+  { "id": "hc_20260312_lunch", "date": "2026-03-12", "session": "Lunch", "expected": 610, "actual": 598 },
+  { "id": "hc_20260312_snacks", "date": "2026-03-12", "session": "Dinner 2", "expected": 330, "actual": 340 },
+  { "id": "hc_20260312_dinner", "date": "2026-03-12", "session": "Dinner 1", "expected": 210, "actual": 205 },
+
+  { "id": "hc_20260313_breakfast", "date": "2026-03-13", "session": "Breakfast", "expected": 190, "actual": 185 },
+  { "id": "hc_20260313_lunch", "date": "2026-03-13", "session": "Lunch", "expected": 620, "actual": 605 },
+  { "id": "hc_20260313_snacks", "date": "2026-03-13", "session": "Dinner 2", "expected": 340, "actual": 335 },
+  { "id": "hc_20260313_dinner", "date": "2026-03-13", "session": "Dinner 1", "expected": 195, "actual": 190 },
+
+  { "id": "hc_20260314_breakfast", "date": "2026-03-14", "session": "Breakfast", "expected": 175, "actual": 170 },
+  { "id": "hc_20260314_lunch", "date": "2026-03-14", "session": "Lunch", "expected": 540, "actual": 520 },
+  { "id": "hc_20260314_snacks", "date": "2026-03-14", "session": "Dinner 2", "expected": 300, "actual": 285 },
+  { "id": "hc_20260314_dinner", "date": "2026-03-14", "session": "Dinner 1", "expected": 170, "actual": 160 },
+
+  { "id": "hc_20260315_breakfast", "date": "2026-03-15", "session": "Breakfast", "expected": 170, "actual": 165 },
+  { "id": "hc_20260315_lunch", "date": "2026-03-15", "session": "Lunch", "expected": 520, "actual": 510 },
+  { "id": "hc_20260315_snacks", "date": "2026-03-15", "session": "Dinner 2", "expected": 290, "actual": 275 },
+  { "id": "hc_20260315_dinner", "date": "2026-03-15", "session": "Dinner 1", "expected": 160, "actual": 155 },
+
+  { "id": "hc_20260316_breakfast", "date": "2026-03-16", "session": "Breakfast", "expected": 200, "actual": 195 },
+  { "id": "hc_20260316_lunch", "date": "2026-03-16", "session": "Lunch", "expected": 610, "actual": 620 },
+  { "id": "hc_20260316_snacks", "date": "2026-03-16", "session": "Dinner 2", "expected": 350, "actual": 345 },
+  { "id": "hc_20260316_dinner", "date": "2026-03-16", "session": "Dinner 1", "expected": 215, "actual": 205 },
+
+  { "id": "hc_20260317_breakfast", "date": "2026-03-17", "session": "Breakfast", "expected": 205, "actual": 198 },
+  { "id": "hc_20260317_lunch", "date": "2026-03-17", "session": "Lunch", "expected": 620, "actual": 610 },
+  { "id": "hc_20260317_snacks", "date": "2026-03-17", "session": "Dinner 2", "expected": 360, "actual": 350 },
+  { "id": "hc_20260317_dinner", "date": "2026-03-17", "session": "Dinner 1", "expected": 220, "actual": 210 },
+
+  { "id": "hc_20260318_breakfast", "date": "2026-03-18", "session": "Breakfast", "expected": 195, "actual": 190 },
+  { "id": "hc_20260318_lunch", "date": "2026-03-18", "session": "Lunch", "expected": 610, "actual": 600 },
+  { "id": "hc_20260318_snacks", "date": "2026-03-18", "session": "Dinner 2", "expected": 340, "actual": 330 },
+  { "id": "hc_20260318_dinner", "date": "2026-03-18", "session": "Dinner 1", "expected": 200, "actual": 195 },
+
+  {
+    "id": "hc_20260319_breakfast",
+    "date": "2026-03-19",
+    "session": "Breakfast",
+    "expected": 210,
+    "actual": 230,
+    "notes": "Special day: leadership visit."
+  },
+  {
+    "id": "hc_20260319_lunch",
+    "date": "2026-03-19",
+    "session": "Lunch",
+    "expected": 720,
+    "actual": 820,
+    "notes": "Special day: abnormal lunch headcount."
+  },
+  { "id": "hc_20260319_snacks", "date": "2026-03-19", "session": "Dinner 2", "expected": 360, "actual": 500 },
+  { "id": "hc_20260319_dinner", "date": "2026-03-19", "session": "Dinner 1", "expected": 230, "actual": 260 },
+
+  { "id": "hc_20260320_breakfast", "date": "2026-03-20", "session": "Breakfast", "expected": 205, "actual": 200 },
+  { "id": "hc_20260320_lunch", "date": "2026-03-20", "session": "Lunch", "expected": 620, "actual": 615 },
+  { "id": "hc_20260320_snacks", "date": "2026-03-20", "session": "Dinner 2", "expected": 360, "actual": 355 },
+  { "id": "hc_20260320_dinner", "date": "2026-03-20", "session": "Dinner 1", "expected": 220, "actual": 210 },
+
+  { "id": "hc_20260321_breakfast", "date": "2026-03-21", "session": "Breakfast", "expected": 180, "actual": 175 },
+  { "id": "hc_20260321_lunch", "date": "2026-03-21", "session": "Lunch", "expected": 560, "actual": 540 },
+  { "id": "hc_20260321_snacks", "date": "2026-03-21", "session": "Dinner 2", "expected": 310, "actual": 295 },
+  { "id": "hc_20260321_dinner", "date": "2026-03-21", "session": "Dinner 1", "expected": 180, "actual": 170 },
+
+  { "id": "hc_20260322_breakfast", "date": "2026-03-22", "session": "Breakfast", "expected": 175, "actual": 168 },
+  { "id": "hc_20260322_lunch", "date": "2026-03-22", "session": "Lunch", "expected": 540, "actual": 525 },
+  { "id": "hc_20260322_snacks", "date": "2026-03-22", "session": "Dinner 2", "expected": 310, "actual": 290 },
+  { "id": "hc_20260322_dinner", "date": "2026-03-22", "session": "Dinner 1", "expected": 175, "actual": 165 },
+
+  { "id": "hc_20260323_breakfast", "date": "2026-03-23", "session": "Breakfast", "expected": 200, "actual": 195 },
+  { "id": "hc_20260323_lunch", "date": "2026-03-23", "session": "Lunch", "expected": 620, "actual": 610 },
+  { "id": "hc_20260323_snacks", "date": "2026-03-23", "session": "Dinner 2", "expected": 350, "actual": 340 },
+  { "id": "hc_20260323_dinner", "date": "2026-03-23", "session": "Dinner 1", "expected": 210, "actual": 205 },
+
+  { "id": "hc_20260324_breakfast", "date": "2026-03-24", "session": "Breakfast", "expected": 205, "actual": 198 },
+  { "id": "hc_20260324_lunch", "date": "2026-03-24", "session": "Lunch", "expected": 640, "actual": 630 },
+  { "id": "hc_20260324_snacks", "date": "2026-03-24", "session": "Dinner 2", "expected": 360, "actual": 350 },
+  { "id": "hc_20260324_dinner", "date": "2026-03-24", "session": "Dinner 1", "expected": 220, "actual": 215 }
+]

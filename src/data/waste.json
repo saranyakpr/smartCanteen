@@ -1,0 +1,526 @@
+[
+  {
+    "id": "w_20260311_breakfast",
+    "date": "2026-03-11",
+    "session": "Breakfast",
+    "menuItemId": "mi_idli_sambar",
+    "wasteQty": 6,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-11T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260311_lunch",
+    "date": "2026-03-11",
+    "session": "Lunch",
+    "menuItemId": "mi_lemon_rice",
+    "wasteQty": 70,
+    "reason": "Overproduction",
+    "notes": "Lemon Rice waste exceeded threshold; review weekday buffer.",
+    "createdAt": "2026-03-11T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260311_snacks",
+    "date": "2026-03-11",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 18,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-11T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260311_dinner",
+    "date": "2026-03-11",
+    "session": "Dinner 1",
+    "menuItemId": "mi_chapati_kurma",
+    "wasteQty": 10,
+    "reason": "Other",
+    "createdAt": "2026-03-11T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260312_breakfast",
+    "date": "2026-03-12",
+    "session": "Breakfast",
+    "menuItemId": "mi_pongal",
+    "wasteQty": 7,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-12T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260312_lunch",
+    "date": "2026-03-12",
+    "session": "Lunch",
+    "menuItemId": "mi_sambar_rice",
+    "wasteQty": 25,
+    "reason": "Overproduction",
+    "createdAt": "2026-03-12T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260312_snacks",
+    "date": "2026-03-12",
+    "session": "Dinner 2",
+    "menuItemId": "mi_samosa",
+    "wasteQty": 32,
+    "reason": "Low Demand",
+    "notes": "Repeated leftover for Samosa; check preference.",
+    "createdAt": "2026-03-12T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260312_dinner",
+    "date": "2026-03-12",
+    "session": "Dinner 1",
+    "menuItemId": "mi_curd_rice",
+    "wasteQty": 8,
+    "reason": "Other",
+    "createdAt": "2026-03-12T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260313_breakfast",
+    "date": "2026-03-13",
+    "session": "Breakfast",
+    "menuItemId": "mi_upma",
+    "wasteQty": 8,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-13T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260313_lunch",
+    "date": "2026-03-13",
+    "session": "Lunch",
+    "menuItemId": "mi_lemon_rice",
+    "wasteQty": 88,
+    "reason": "Overproduction",
+    "notes": "High waste for Lemon Rice; monitor weekly trend.",
+    "createdAt": "2026-03-13T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260313_snacks",
+    "date": "2026-03-13",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 20,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-13T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260313_dinner",
+    "date": "2026-03-13",
+    "session": "Dinner 1",
+    "menuItemId": "mi_dosa",
+    "wasteQty": 9,
+    "reason": "Other",
+    "createdAt": "2026-03-13T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260314_breakfast",
+    "date": "2026-03-14",
+    "session": "Breakfast",
+    "menuItemId": "mi_dosa",
+    "wasteQty": 10,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-14T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260314_lunch",
+    "date": "2026-03-14",
+    "session": "Lunch",
+    "menuItemId": "mi_veg_biryani",
+    "wasteQty": 25,
+    "reason": "Overproduction",
+    "createdAt": "2026-03-14T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260314_snacks",
+    "date": "2026-03-14",
+    "session": "Dinner 2",
+    "menuItemId": "mi_samosa",
+    "wasteQty": 30,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-14T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260314_dinner",
+    "date": "2026-03-14",
+    "session": "Dinner 1",
+    "menuItemId": "mi_sambar_rice",
+    "wasteQty": 10,
+    "reason": "Other",
+    "createdAt": "2026-03-14T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260315_breakfast",
+    "date": "2026-03-15",
+    "session": "Breakfast",
+    "menuItemId": "mi_idli_sambar",
+    "wasteQty": 8,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-15T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260315_lunch",
+    "date": "2026-03-15",
+    "session": "Lunch",
+    "menuItemId": "mi_curd_rice",
+    "wasteQty": 18,
+    "reason": "Other",
+    "createdAt": "2026-03-15T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260315_snacks",
+    "date": "2026-03-15",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 22,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-15T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260315_dinner",
+    "date": "2026-03-15",
+    "session": "Dinner 1",
+    "menuItemId": "mi_chapati_kurma",
+    "wasteQty": 9,
+    "reason": "Other",
+    "createdAt": "2026-03-15T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260316_breakfast",
+    "date": "2026-03-16",
+    "session": "Breakfast",
+    "menuItemId": "mi_pongal",
+    "wasteQty": 9,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-16T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260316_lunch",
+    "date": "2026-03-16",
+    "session": "Lunch",
+    "menuItemId": "mi_lemon_rice",
+    "wasteQty": 90,
+    "reason": "Low Demand",
+    "notes": "Lemon Rice waste repeated; consider reducing preparation by 10–12% on weekdays.",
+    "createdAt": "2026-03-16T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260316_snacks",
+    "date": "2026-03-16",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 20,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-16T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260316_dinner",
+    "date": "2026-03-16",
+    "session": "Dinner 1",
+    "menuItemId": "mi_curd_rice",
+    "wasteQty": 12,
+    "reason": "Other",
+    "createdAt": "2026-03-16T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260317_breakfast",
+    "date": "2026-03-17",
+    "session": "Breakfast",
+    "menuItemId": "mi_upma",
+    "wasteQty": 9,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-17T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260317_lunch",
+    "date": "2026-03-17",
+    "session": "Lunch",
+    "menuItemId": "mi_chapati_kurma",
+    "wasteQty": 22,
+    "reason": "Overproduction",
+    "createdAt": "2026-03-17T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260317_snacks",
+    "date": "2026-03-17",
+    "session": "Dinner 2",
+    "menuItemId": "mi_samosa",
+    "wasteQty": 45,
+    "reason": "Low Demand",
+    "notes": "Repeated leftovers and low feedback for Samosa.",
+    "createdAt": "2026-03-17T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260317_dinner",
+    "date": "2026-03-17",
+    "session": "Dinner 1",
+    "menuItemId": "mi_dosa",
+    "wasteQty": 12,
+    "reason": "Other",
+    "createdAt": "2026-03-17T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260318_breakfast",
+    "date": "2026-03-18",
+    "session": "Breakfast",
+    "menuItemId": "mi_dosa",
+    "wasteQty": 10,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-18T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260318_lunch",
+    "date": "2026-03-18",
+    "session": "Lunch",
+    "menuItemId": "mi_lemon_rice",
+    "wasteQty": 82,
+    "reason": "Overproduction",
+    "createdAt": "2026-03-18T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260318_snacks",
+    "date": "2026-03-18",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 18,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-18T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260318_dinner",
+    "date": "2026-03-18",
+    "session": "Dinner 1",
+    "menuItemId": "mi_sambar_rice",
+    "wasteQty": 12,
+    "reason": "Other",
+    "createdAt": "2026-03-18T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260319_breakfast",
+    "date": "2026-03-19",
+    "session": "Breakfast",
+    "menuItemId": "mi_idli_sambar",
+    "wasteQty": 8,
+    "reason": "Other",
+    "createdAt": "2026-03-19T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260319_lunch",
+    "date": "2026-03-19",
+    "session": "Lunch",
+    "menuItemId": "mi_veg_biryani",
+    "wasteQty": 55,
+    "reason": "Overproduction",
+    "notes": "Special day headcount variance increased preparation buffer.",
+    "createdAt": "2026-03-19T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260319_snacks",
+    "date": "2026-03-19",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 35,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-19T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260319_dinner",
+    "date": "2026-03-19",
+    "session": "Dinner 1",
+    "menuItemId": "mi_chapati_kurma",
+    "wasteQty": 14,
+    "reason": "Other",
+    "createdAt": "2026-03-19T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260320_breakfast",
+    "date": "2026-03-20",
+    "session": "Breakfast",
+    "menuItemId": "mi_pongal",
+    "wasteQty": 8,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-20T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260320_lunch",
+    "date": "2026-03-20",
+    "session": "Lunch",
+    "menuItemId": "mi_sambar_rice",
+    "wasteQty": 28,
+    "reason": "Overproduction",
+    "createdAt": "2026-03-20T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260320_snacks",
+    "date": "2026-03-20",
+    "session": "Dinner 2",
+    "menuItemId": "mi_samosa",
+    "wasteQty": 44,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-20T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260320_dinner",
+    "date": "2026-03-20",
+    "session": "Dinner 1",
+    "menuItemId": "mi_curd_rice",
+    "wasteQty": 11,
+    "reason": "Other",
+    "createdAt": "2026-03-20T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260321_breakfast",
+    "date": "2026-03-21",
+    "session": "Breakfast",
+    "menuItemId": "mi_upma",
+    "wasteQty": 9,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-21T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260321_lunch",
+    "date": "2026-03-21",
+    "session": "Lunch",
+    "menuItemId": "mi_lemon_rice",
+    "wasteQty": 60,
+    "reason": "Overproduction",
+    "createdAt": "2026-03-21T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260321_snacks",
+    "date": "2026-03-21",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 18,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-21T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260321_dinner",
+    "date": "2026-03-21",
+    "session": "Dinner 1",
+    "menuItemId": "mi_dosa",
+    "wasteQty": 9,
+    "reason": "Other",
+    "createdAt": "2026-03-21T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260322_breakfast",
+    "date": "2026-03-22",
+    "session": "Breakfast",
+    "menuItemId": "mi_dosa",
+    "wasteQty": 8,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-22T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260322_lunch",
+    "date": "2026-03-22",
+    "session": "Lunch",
+    "menuItemId": "mi_chapati_kurma",
+    "wasteQty": 22,
+    "reason": "Overproduction",
+    "createdAt": "2026-03-22T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260322_snacks",
+    "date": "2026-03-22",
+    "session": "Dinner 2",
+    "menuItemId": "mi_samosa",
+    "wasteQty": 34,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-22T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260322_dinner",
+    "date": "2026-03-22",
+    "session": "Dinner 1",
+    "menuItemId": "mi_sambar_rice",
+    "wasteQty": 9,
+    "reason": "Other",
+    "createdAt": "2026-03-22T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260323_breakfast",
+    "date": "2026-03-23",
+    "session": "Breakfast",
+    "menuItemId": "mi_idli_sambar",
+    "wasteQty": 9,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-23T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260323_lunch",
+    "date": "2026-03-23",
+    "session": "Lunch",
+    "menuItemId": "mi_curd_rice",
+    "wasteQty": 24,
+    "reason": "Other",
+    "createdAt": "2026-03-23T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260323_snacks",
+    "date": "2026-03-23",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 18,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-23T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260323_dinner",
+    "date": "2026-03-23",
+    "session": "Dinner 1",
+    "menuItemId": "mi_chapati_kurma",
+    "wasteQty": 11,
+    "reason": "Other",
+    "createdAt": "2026-03-23T21:00:00.000Z"
+  },
+
+  {
+    "id": "w_20260324_breakfast",
+    "date": "2026-03-24",
+    "session": "Breakfast",
+    "menuItemId": "mi_pongal",
+    "wasteQty": 10,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-24T09:30:00.000Z"
+  },
+  {
+    "id": "w_20260324_lunch",
+    "date": "2026-03-24",
+    "session": "Lunch",
+    "menuItemId": "mi_lemon_rice",
+    "wasteQty": 95,
+    "reason": "Overproduction",
+    "notes": "Waste spike for Lemon Rice; repeated pattern in last 2 weeks.",
+    "createdAt": "2026-03-24T14:00:00.000Z"
+  },
+  {
+    "id": "w_20260324_snacks",
+    "date": "2026-03-24",
+    "session": "Dinner 2",
+    "menuItemId": "mi_tea_biscuits",
+    "wasteQty": 20,
+    "reason": "Low Demand",
+    "createdAt": "2026-03-24T17:30:00.000Z"
+  },
+  {
+    "id": "w_20260324_dinner",
+    "date": "2026-03-24",
+    "session": "Dinner 1",
+    "menuItemId": "mi_curd_rice",
+    "wasteQty": 14,
+    "reason": "Other",
+    "createdAt": "2026-03-24T21:00:00.000Z"
+  }
+]

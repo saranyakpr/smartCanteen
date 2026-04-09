@@ -1,0 +1,106 @@
+[
+  {
+    "menuItemId": "mi_idli_sambar",
+    "ingredients": [
+      { "itemId": "si_rice", "qtyPerPlate": 0.08 },
+      { "itemId": "si_dal", "qtyPerPlate": 0.02 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.005 },
+      { "itemId": "si_tomato", "qtyPerPlate": 0.01 },
+      { "itemId": "si_onion", "qtyPerPlate": 0.008 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_pongal",
+    "ingredients": [
+      { "itemId": "si_rice", "qtyPerPlate": 0.07 },
+      { "itemId": "si_dal", "qtyPerPlate": 0.02 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.004 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_upma",
+    "ingredients": [
+      { "itemId": "si_wheat_flour", "qtyPerPlate": 0.06 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.004 },
+      { "itemId": "si_onion", "qtyPerPlate": 0.008 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_dosa",
+    "ingredients": [
+      { "itemId": "si_rice", "qtyPerPlate": 0.09 },
+      { "itemId": "si_dal", "qtyPerPlate": 0.02 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.006 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_lemon_rice",
+    "ingredients": [
+      { "itemId": "si_rice", "qtyPerPlate": 0.11 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.005 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_sambar_rice",
+    "ingredients": [
+      { "itemId": "si_rice", "qtyPerPlate": 0.1 },
+      { "itemId": "si_dal", "qtyPerPlate": 0.03 },
+      { "itemId": "si_tomato", "qtyPerPlate": 0.012 },
+      { "itemId": "si_onion", "qtyPerPlate": 0.01 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.006 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_curd_rice",
+    "ingredients": [
+      { "itemId": "si_rice", "qtyPerPlate": 0.1 },
+      { "itemId": "si_curd", "qtyPerPlate": 0.05 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_chapati_kurma",
+    "ingredients": [
+      { "itemId": "si_wheat_flour", "qtyPerPlate": 0.12 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.006 },
+      { "itemId": "si_potato", "qtyPerPlate": 0.05 },
+      { "itemId": "si_tomato", "qtyPerPlate": 0.01 },
+      { "itemId": "si_onion", "qtyPerPlate": 0.01 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_veg_biryani",
+    "ingredients": [
+      { "itemId": "si_rice", "qtyPerPlate": 0.12 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.006 },
+      { "itemId": "si_onion", "qtyPerPlate": 0.012 },
+      { "itemId": "si_tomato", "qtyPerPlate": 0.01 },
+      { "itemId": "si_potato", "qtyPerPlate": 0.04 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  },
+  {
+    "menuItemId": "mi_tea_biscuits",
+    "ingredients": [
+      { "itemId": "si_tea_powder", "qtyPerPlate": 0.002 },
+      { "itemId": "si_sugar", "qtyPerPlate": 0.01 },
+      { "itemId": "si_milk", "qtyPerPlate": 0.15 }
+    ]
+  },
+  {
+    "menuItemId": "mi_samosa",
+    "ingredients": [
+      { "itemId": "si_wheat_flour", "qtyPerPlate": 0.04 },
+      { "itemId": "si_potato", "qtyPerPlate": 0.08 },
+      { "itemId": "si_oil", "qtyPerPlate": 0.01 },
+      { "itemId": "si_salt", "qtyPerPlate": 0.001 }
+    ]
+  }
+]
