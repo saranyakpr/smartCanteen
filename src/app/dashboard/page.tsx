@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 import {
   Box,
   Button,
+  Chip,
   Divider,
   FormControl,
   Grid,
@@ -94,6 +95,12 @@ type WidgetKey =
   | 'recentRequests'
   | 'utilities';
 
+type DashboardCta = {
+  label: string;
+  href: string;
+  variant?: 'contained' | 'outlined' | 'text';
+};
+
 function formatShortDate(date: ISODate): string {
   return format(parseISO(date), 'MMM d');
 }
@@ -178,12 +185,8 @@ function getWidgetOrderForRole(role: AppRole): WidgetKey[] {
         'dailyWaste',
         'feedback',
         'recommendations',
-        'alerts',
-        'utilities',
         'recentRequests',
-        'weeklyWaste',
-        'matrix',
-        'stockRisk',
+        'alerts',
       ];
     case 'Store Manager':
       return [
@@ -192,13 +195,7 @@ function getWidgetOrderForRole(role: AppRole): WidgetKey[] {
         'recentRequests',
         'alerts',
         'weeklyWaste',
-        'dailyWaste',
-        'utilities',
         'recommendations',
-        'feedback',
-        'sessionWaste',
-        'menuLeftovers',
-        'matrix',
       ];
     case 'Canteen Manager':
       return [
@@ -211,9 +208,6 @@ function getWidgetOrderForRole(role: AppRole): WidgetKey[] {
         'feedback',
         'weeklyWaste',
         'recommendations',
-        'stockRisk',
-        'recentRequests',
-        'matrix',
       ];
     case 'Management':
       return [
@@ -223,16 +217,54 @@ function getWidgetOrderForRole(role: AppRole): WidgetKey[] {
         'stockRisk',
         'recommendations',
         'alerts',
-        'feedback',
-        'utilities',
-        'recentRequests',
-        'sessionWaste',
-        'menuLeftovers',
-        'matrix',
       ];
     case 'Admin':
     default:
       return all;
+  }
+}
+
+function getDashboardSubtitleForRole(role: AppRole): string {
+  switch (role) {
+    case 'Chef':
+      return 'Chef view: focus on timetable, leftovers, waste, and requisitions.';
+    case 'Store Manager':
+      return 'Store view: focus on stock risk, pending issues, and requisitions.';
+    case 'Canteen Manager':
+      return 'Operations view: focus on waste, utilities, feedback, and service quality.';
+    case 'Management':
+      return 'Management view: focus on KPIs, trends, top risks, and required actions.';
+    case 'Admin':
+    default:
+      return 'Operations cockpit: waste, headcount, stock risk, feedback, requests, and utilities.';
+  }
+}
+
+function getDashboardCtasForRole(role: AppRole): DashboardCta[] {
+  switch (role) {
+    case 'Chef':
+      return [
+        { label: 'Plan timetable', href: '/menu-consumption', variant: 'contained' },
+        { label: 'New requisition', href: '/requests', variant: 'outlined' },
+      ];
+    case 'Store Manager':
+      return [
+        { label: 'Pending issues', href: '/requests?view=pending', variant: 'contained' },
+        { label: 'Open stock', href: '/stock', variant: 'outlined' },
+      ];
+    case 'Canteen Manager':
+      return [
+        { label: 'Log waste', href: '/waste-utilities', variant: 'contained' },
+        { label: 'Open feedback', href: '/feedback', variant: 'outlined' },
+      ];
+    case 'Management':
+      return [
+        { label: 'Open reports', href: '/reports', variant: 'contained' },
+        { label: 'Recommendations', href: '/recommendations', variant: 'outlined' },
+      ];
+    case 'Admin':
+    default:
+      return [];
   }
 }
 
@@ -482,6 +514,8 @@ export default function DashboardPage() {
   }, [asOfDate, datesInRange, utilityEntries]);
 
   const widgetOrder = React.useMemo(() => getWidgetOrderForRole(role), [role]);
+  const dashboardSubtitle = React.useMemo(() => getDashboardSubtitleForRole(role), [role]);
+  const dashboardCtas = React.useMemo(() => getDashboardCtasForRole(role), [role]);
 
   const handlePresetChange = (_: React.MouseEvent<HTMLElement>, next: RangePreset | null) => {
     if (!next) return;
@@ -1161,9 +1195,22 @@ export default function DashboardPage() {
     <>
       <PageHeader
         title="Dashboard"
-        subtitle="Operations cockpit: waste, headcount, stock risk, feedback, requests, and utilities."
+        subtitle={dashboardSubtitle}
         actions={
-          <Stack direction="row" spacing={1}>
+          <Stack direction="row" spacing={1} alignItems="center" sx={{ flexWrap: 'wrap', justifyContent: { xs: 'flex-start', sm: 'flex-end' } }}>
+            <Chip label={role} size="small" variant="outlined" sx={{ fontWeight: 700 }} />
+
+            {dashboardCtas.map((cta) => (
+              <Button
+                key={cta.href}
+                size="small"
+                variant={cta.variant ?? 'text'}
+                onClick={() => router.push(cta.href)}
+              >
+                {cta.label}
+              </Button>
+            ))}
+
             <Button
               size="small"
               onClick={() => {
